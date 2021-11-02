@@ -4,10 +4,10 @@ from visitor import Visitor
 from extract_target import extract_target
 
 project_db = pymysql.connect( host="localhost", port=3306, \
-    user="pymsql", passwd="6lO/]u(zWpBQUa5A", db="projectdata")
+    user="***", passwd="***", db="projectdata")
 
 nginx_db = pymysql.connect( host="localhost", port=3306, \
-    user="pymsql", passwd="6lO/]u(zWpBQUa5A", db="nginxdata")
+    user="***", passwd="***", db="nginxdata")
 
 pj_cursor = project_db.cursor()
 nx_cursor = nginx_db.cursor()
